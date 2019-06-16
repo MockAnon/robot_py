@@ -1,35 +1,35 @@
-Mon May 20 17:21:05 2019
+Sat Jun 15 22:01:23 2019
 Darwin-18.5.0-x86_64-i386-64bit
 Ren'Py 7.2.1.457
  
 
-Bootstrap to the start of init.init took 0.08s
+Bootstrap to the start of init.init took 0.09s
 Early init took 0.00s
-Loader init took 0.05s
+Loader init took 0.01s
 Loading error handling took 0.04s
-Loading script took 0.49s
-Loading save slot metadata. took 0.04s
+Loading script took 0.30s
+Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.14s
+Running init code took 0.11s
 Loading analysis data took 0.05s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Backing up script files to '/Users/jevans/Library/RenPy/backups/renpyTest':
+Backing up script files to '/Users/jevans/Library/RenPy/backups/Robot':
 Dump and make backups. took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.02s
 DPI scale factor: 1.000000
-Creating interface object took 0.28s
+Creating interface object took 0.19s
 Cleaning stores took 0.00s
 Init translation took 0.03s
 Build styles took 0.01s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.08s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.18s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.07s
 Running _start took 0.00s
 Performance test:
@@ -185,15 +185,14 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 2.31645393372s
+Total time until interface ready: 1.62427186966s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.015852 seconds.
-- Frame drawn at 0.032386 seconds.
-- Frame drawn at 0.051668 seconds.
-- Frame drawn at 0.065514 seconds.
-- 0.065514 seconds to render 5 frames.
-1
+- Frame drawn at 0.016326 seconds.
+- Frame drawn at 0.030888 seconds.
+- Frame drawn at 0.050156 seconds.
+- Frame drawn at 0.065465 seconds.
+- 0.065465 seconds to render 5 frames.
 2
 [u'bg boathouse', u'bg church', u'bg club', u'bg library', u'black', u'brynn', u'brynn', u'ella', u'ella', u'icon_01_hover', u'icon_01_idle', u'icon_01_select', u'icon_02', u'icon_03', u'lissandra', u'lissandra', u'solar_sys', u'text', u'vtext']
 bg boathouse
@@ -215,183 +214,23 @@ solar_sys
 text
 vtext
 It's day %(day)d and %(time)s
-2
-[u'bg boathouse', u'bg church', u'bg club', u'bg library', u'black', u'brynn', u'brynn', u'ella', u'ella', u'icon_01_hover', u'icon_01_idle', u'icon_01_select', u'icon_02', u'icon_03', u'lissandra', u'lissandra', u'solar_sys', u'text', u'vtext']
-bg boathouse
-bg church
-bg club
-bg library
-brynn
-brynn
-ella
-ella
-icon_01_hover
-icon_01_idle
-icon_01_select
-icon_02
-icon_03
-lissandra
-lissandra
-solar_sys
-text
-vtext
-It's day %(day)d and %(time)s
-2
-[u'bg boathouse', u'bg church', u'bg club', u'bg library', u'black', u'brynn', u'brynn', u'ella', u'ella', u'icon_01_hover', u'icon_01_idle', u'icon_01_select', u'icon_02', u'icon_03', u'lissandra', u'lissandra', u'solar_sys', u'text', u'vtext']
-bg boathouse
-bg church
-bg club
-bg library
-brynn
-brynn
-ella
-ella
-icon_01_hover
-icon_01_idle
-icon_01_select
-icon_02
-icon_03
-lissandra
-lissandra
-solar_sys
-text
-vtext
-It's day %(day)d and %(time)s
-False
-Reverse Stat
-False
-1
-You have gained 1 count. You now have 1 count
-1
-4
-[u'bg boathouse', u'bg church', u'bg club', u'bg library', u'black', u'brynn', u'brynn', u'ella', u'ella', u'icon_01_hover', u'icon_01_idle', u'icon_01_select', u'icon_02', u'icon_03', u'lissandra', u'lissandra', u'solar_sys', u'text', u'vtext']
-bg boathouse
-bg church
-bg club
-bg library
-brynn
-brynn
-ella
-ella
-icon_01_hover
-icon_01_idle
-icon_01_select
-icon_02
-icon_03
-lissandra
-lissandra
-solar_sys
-text
-vtext
-It's day %(day)d and %(time)s
-6
-[u'bg boathouse', u'bg church', u'bg club', u'bg library', u'black', u'brynn', u'brynn', u'ella', u'ella', u'icon_01_hover', u'icon_01_idle', u'icon_01_select', u'icon_02', u'icon_03', u'lissandra', u'lissandra', u'solar_sys', u'text', u'vtext']
-bg boathouse
-bg church
-bg club
-bg library
-brynn
-brynn
-ella
-ella
-icon_01_hover
-icon_01_idle
-icon_01_select
-icon_02
-icon_03
-lissandra
-lissandra
-solar_sys
-text
-vtext
-It's day %(day)d and %(time)s
-8
-[u'bg boathouse', u'bg church', u'bg club', u'bg library', u'black', u'brynn', u'brynn', u'ella', u'ella', u'icon_01_hover', u'icon_01_idle', u'icon_01_select', u'icon_02', u'icon_03', u'lissandra', u'lissandra', u'solar_sys', u'text', u'vtext']
-bg boathouse
-bg church
-bg club
-bg library
-brynn
-brynn
-ella
-ella
-icon_01_hover
-icon_01_idle
-icon_01_select
-icon_02
-icon_03
-lissandra
-lissandra
-solar_sys
-text
-vtext
-It's day %(day)d and %(time)s
-10
-[u'bg boathouse', u'bg church', u'bg club', u'bg library', u'black', u'brynn', u'brynn', u'ella', u'ella', u'icon_01_hover', u'icon_01_idle', u'icon_01_select', u'icon_02', u'icon_03', u'lissandra', u'lissandra', u'solar_sys', u'text', u'vtext']
-bg boathouse
-bg church
-bg club
-bg library
-brynn
-brynn
-ella
-ella
-icon_01_hover
-icon_01_idle
-icon_01_select
-icon_02
-icon_03
-lissandra
-lissandra
-solar_sys
-text
-vtext
-It's day %(day)d and %(time)s
-False
-Reverse Stat
-False
-2
-You have gained 1 count. You now have 2 count
-2
-12
-[u'bg boathouse', u'bg church', u'bg club', u'bg library', u'black', u'brynn', u'brynn', u'ella', u'ella', u'icon_01_hover', u'icon_01_idle', u'icon_01_select', u'icon_02', u'icon_03', u'lissandra', u'lissandra', u'solar_sys', u'text', u'vtext']
-bg boathouse
-bg church
-bg club
-bg library
-brynn
-brynn
-ella
-ella
-icon_01_hover
-icon_01_idle
-icon_01_select
-icon_02
-icon_03
-lissandra
-lissandra
-solar_sys
-text
-vtext
-It's day %(day)d and %(time)s
-14
-[u'bg boathouse', u'bg church', u'bg club', u'bg library', u'black', u'brynn', u'brynn', u'ella', u'ella', u'icon_01_hover', u'icon_01_idle', u'icon_01_select', u'icon_02', u'icon_03', u'lissandra', u'lissandra', u'solar_sys', u'text', u'vtext']
-bg boathouse
-bg church
-bg club
-bg library
-brynn
-brynn
-ella
-ella
-icon_01_hover
-icon_01_idle
-icon_01_select
-icon_02
-icon_03
-lissandra
-lissandra
-solar_sys
-text
-vtext
-It's day %(day)d and %(time)s
+
+Full traceback:
+  File "/Applications/renpy-7.2.1-sdk/renpy/bootstrap.py", line 313, in bootstrap
+    renpy.main.main()
+  File "/Applications/renpy-7.2.1-sdk/renpy/main.py", line 524, in main
+    run(restart)
+  File "/Applications/renpy-7.2.1-sdk/renpy/main.py", line 139, in run
+    renpy.execution.run_context(True)
+  File "/Applications/renpy-7.2.1-sdk/renpy/execution.py", line 892, in run_context
+    context.run()
+  File "game/script.rpy", line 119, in script
+    python:
+  File "/Applications/renpy-7.2.1-sdk/renpy/script.py", line 886, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'world_map'.
+
+While running game code:
+  File "game/script.rpy", line 119, in script
+    python:
+ScriptError: could not find label 'world_map'.
