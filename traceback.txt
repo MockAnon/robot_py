@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/characterSystem.rpy", line 1, in script
+    init python:
+  File "game/characterSystem.rpy", line 87, in <module>
+    print(church.raiseStat("count", 1))
+  File "game/characterSystem.rpy", line 65, in raiseStat
+    renpy.say(narrator, "You have gained " + str(number) + " " + type + ". You now have " + str(output) + " " + type)
+NameError: global name 'narrator' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/characterSystem.rpy", line 1, in script
+    init python:
+  File "/Applications/renpy-7.2.1-sdk/renpy/ast.py", line 896, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Applications/renpy-7.2.1-sdk/renpy/python.py", line 1929, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/characterSystem.rpy", line 87, in <module>
+    print(church.raiseStat("count", 1))
+  File "game/characterSystem.rpy", line 65, in raiseStat
+    renpy.say(narrator, "You have gained " + str(number) + " " + type + ". You now have " + str(output) + " " + type)
+NameError: global name 'narrator' is not defined
+
+Darwin-18.5.0-x86_64-i386-64bit
+Ren'Py 7.2.1.457
+ 
+Mon May 20 12:23:33 2019

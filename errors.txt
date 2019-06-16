@@ -1,0 +1,11 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/characterSystem.rpy", line 69: invalid syntax
+            if vars(self)[type] == True || vars(self)[type] == False:
+                                          ^
+    
+
+Ren'Py Version: Ren'Py 7.2.1.457
+Mon May 20 12:17:30 2019
